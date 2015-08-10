@@ -18,3 +18,12 @@ DELETE	/users/1	destroy	user_path(user)	delete user
 reset user database
 
 bundle exec rake db:migrate:reset
+
+
+.........
+
+testing user signup form
+
+rails generate integration_test users_signup
+
+
